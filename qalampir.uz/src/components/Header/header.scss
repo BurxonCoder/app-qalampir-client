@@ -1,0 +1,76 @@
+/************************** Header Styles **********************/
+.header{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 130px;
+
+  .header-top{
+    ul{
+      li{
+        a{
+          color: #808080;
+          &:hover{
+            color: #ff0000;
+          }
+        }
+      }
+    }
+  }
+
+  .header-main{
+
+    .navbar-brand{
+      .logo{
+        width: 240px;
+
+
+      }
+    }
+  }
+}
+.nav-link p{
+  padding-top: 15px;
+  font-weight: 700;
+  font-size:18px;
+}
+
+.nav p{
+transform: translateX(210px);
+}
+
+.icons-01{
+  transform: translateX(-30px);
+}
+.icons-02{
+  transform: translateX(-10px);
+  width: 50px;
+}
+
+
+.main-body img{
+  width: 700px;
+}
+
+.img-01{
+  transform: translateX(-80px);
+  margin-top: 25px;
+}
+
+
+.body-01 img{
+width: 120px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.body-01{
+  display: flex;
+
+}
+
+.body-01 p{
+  font-weight: 500;
+  margin-top: 25px;
+  transform: translateX(10px);
+
+}

@@ -1,10 +1,15 @@
 import React from 'react';
 import './home.scss';
+import Header from "../../components/Header/Header";
+import Down from "../../components/Main/Down";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
     return (
         <div>
-            <h1>Home Page</h1>
+            <Header/>
+            <Down/>
+            <Footer/>
         </div>
     );
 };
